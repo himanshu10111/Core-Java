@@ -1,0 +1,20 @@
+package Basicjava;
+
+public class VariblesinJava {
+	
+	byte by=10;
+	short sh=20;
+	long lng = 44825131;
+	int a=0;
+	char chr='a';
+	boolean bol= true;
+	boolean bol1= false;
+	float fl= 532.23f;
+	double db= 1845454.2003;
+	String Str= "java";
+	
+	
+	
+
+
+}

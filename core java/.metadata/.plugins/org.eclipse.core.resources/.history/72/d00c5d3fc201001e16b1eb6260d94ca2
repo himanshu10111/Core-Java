@@ -1,0 +1,15 @@
+package Basicjava;
+
+public class StringInJava {
+	
+	public static void main(String[] args) {
+		
+		String Str="java";
+		String str1="python";
+		
+		System.out.print(Str+"is complex than : "+str1);
+		
+		
+	}
+
+}
