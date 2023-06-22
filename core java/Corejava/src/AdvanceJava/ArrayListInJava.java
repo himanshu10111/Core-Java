@@ -1,6 +1,8 @@
 package AdvanceJava;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class ArrayListInJava {
 public static void main(String[] args) {
@@ -15,8 +17,15 @@ public static void main(String[] args) {
 	books.add("Perl");
 	books.add("R");
 	books.add("C#");
+	// sort the members:
+	Collections.sort(books);
+	// print all members of Array list..
+	for(String i : books)
+	{
+		System.out.println(i);
+	}
 	
-	// Print Them
+	// Print single members
 	System.out.println(books.get(0));
 	System.out.println(books.get(1));
 	
@@ -36,12 +45,9 @@ public static void main(String[] args) {
 
 	System.out.println(books.size());
 	
-	// print all members of Array list..
 	
-	for(String i : books)
-	{
-		System.out.println(i);
-	}
+	
+	
 }
 }
 
